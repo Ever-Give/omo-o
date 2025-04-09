@@ -1,0 +1,264 @@
+Omo Alex: Light Novel - Page 2
+
+Author: Omo Alex
+
+*000*2024-12-13 07:39
+
+I like the animation! Despite it being rough.
+
+*001*2025-01-01 20:12
+
+Story recap: Alex is a freshmen attending “Omo Tech,” a college where there is only one restroom and students frequently wet themselves and pee in public. Alex has grown close to her roommate Ben and together they have had dozens of accidents and have urinated in unique and mischievous places. This weekend, with their non-binary roommate Jack, and classmate Mike, they start an internship at a company called “Bladder App.”
+
+Chapter 7: A New Internship
+
+Despite our full bladders, the moment class ended on Friday, Jack, Ben, Mike, and I rushed towards the trail that led to town. We had 9 long miles to run before reaching our internship’s office location. Our college's quirky system required part-time internships to take place during the weekends, starting Friday afternoon.
+
+As we sprinted up and down steep hills, my incontinence ignited; each hard landing caused my bladder to crash downwards into my pelvis, forcing out a dribble of pee that seeped into my soaked panties. A wet patch swiftly spread across my leggings and the wet stickiness eventually gave me a wedgie. After three adrenaline filled miles of leakage, I convinced Mike to slow down so that we could pee on the side of the trail and drink some water. Without looking for any cover, we stopped in the middle of the trail and let out torrents of pee which pooled and soaked the edge of the trail. Immediately after we finished peeing, we resumed our run.
+
+&&
+
+We arrived in the town at 1:30 PM and then spent 20 minutes wandering around trying to find the office. There were no paved roads other than sidewalks, and all the buildings were no more than three stories high which made them blend in with the surrounding forest. Any clearings were filled with vegetable gardens, hedges, and intricate flower gardens. Our college was similarly designed, but the elegance of the gardens in this town made this place feel prestigious like the palace of Versailles. One garden was filled with exotic flowers and a large marble statue of a boy peeing into a coy pond.
+
+After finding the office building, Robyn, greeted us and proceeded to show us around the office. Robyn was a software developer in his mid twenties working for Bladder App. The office had a modern open floor layout with desks for most of the employees, and a few walled offices for the managers. Once we got to the back of the office, we reached a locker-room that opened up into a small bathroom with a few communal showers. Robyn eyed my wet groin, smirked and said: “How rude of me, you all just ran 9 miles to get here, you must be sweaty. Feel free to set your things down in the locker room and take a quick shower.”
+
+There were only three showers and four of us, but that didn’t slow us down, Ben and I shared a shower head and we took a quick shower together. We then got changed into dry clothes, and re-entered the office.
+
+We were introduced to Ryan, a software engineer in his 30’s, and Dr. Julia a bio-mechanic that specializes in making embedded hardware. The CEO Austin, then gave us an enthusiastic overview of the company and what the watch and app does.
+
+Watch features:
+
+Ultrasound sensors that are able to detect bladder and stomach compositions.
+
+EMP hardware able to send nerve signals targeting specific muscles in lower abdomen.
+
+Lithium battery that lasts 30 days.
+
+App features:
+
+Automatically logs when and how much you pee.
+
+Data is visualized as both a table and graphs
+
+Bladder gauge: an indicator that reads the current volume of urine in your bladder and how badly you need to pee.
+
+Data is visualized as a color coded indicator on the home screen going from green, yellow, and then red.
+
+Bladder forecast: based on your prior data and stomach composition, the app gives you a ‘bladder forecast’ of when you will have to pee and how badly.
+
+Bladder trigger: On command, the app can send electrical signals to your bladder, forcing you to pee.
+
+Bladder trainer: optimization algorithm that can help you increase your bladder’s holding capacity. The app uses AI to create a ‘training plan’ and then tells you when you are allowed to pee and will force you to pee if you haven’t already done so by the end of the allowed window. If you pee too early, the app will punish you by making you wet yourself at a random time the next day.
+
+Omo Companion: feature that gives control of the app to a partner or third party that can manually set time windows when you are allowed to pee. The partner can also track your historical and current bladder status and force you to wet yourself.
+
+&&
+
+Dr. Julia took over the presentation and started ranting: “One large miss-conception is that people have a ‘large’ or a ‘small’ bladder and that as a result some people can hold more urine than others. This simply isn’t true! Although, bladder sizes vary slightly on height and gender (with tall males having slightly larger bladders), your capacity to hold is mostly driven by your pelvic floor and other bladder muscles. Even if we surgically gave you a larger bladder, without the muscles, you wouldn’t be able to hold any more pee than you already can today.”
+
+“Rather than saying your bladder has a capacity of 700 ML, we assign users an ‘Estimated Holding Capability’ or EHC for short. It’s only an estimate since this score is calculated based on how much you have held in the past and how badly you needed to pee at those times. This value can change over time as your muscles strengthen or weaken.
+
+Julia then writes a few formulas on the whiteboard.
+
+&&
+
+Now, you would think that the desperation forecast would be this simple, but it isn’t! The bladder doesn’t fill at a constant rate, it is contingent upon a lot of factors like:
+
+Dehydration
+
+How much you drink
+
+How fast you drink
+
+What types of liquids you are drinking
+
+What foods did you eat
+
+Temperature
+
+Heart rate
+
+Bladder volume
+
+Weight
+
+Incontience
+
+Time of day
+
+Forming a single n-squared regression model against all these parameters wouldn’t be very effective since they can differ person to person and change over time. One person may sweat a lot with a 100 bpm heart rate, and another person may not sweat at all. Plus, you have interdependent influences like weight, temperature, heart rate, and hydration which would all influence how much someone sweats. To account for all these factors, we are using a regression based Long Short Term Memory (LSTM) Machine Learning (ML) model to predict someone’s desperation in the future.
+
+To speed up training, we use a one shot transfer learning method: you start with a base model trained off of everyone who has ever used the watch and then a copy of the model is trained against your individual data. This allows us to identify patterns and learn from historical trends in how fast your bladder filled up in the past to estimate how your bladder will fill under current circumstances. Using this model we can forecast hypothetical scenarios like what happens if you drink 8 oz of coffee at 8:00. vs drinking 10 oz of water at 9:00.
+
+“I say all this to mention, that you need to use the app for about a week before it is able to accurately predict when and how badly you will have to pee. Additionally, to get an accurate EHC, you need to hold your bladder as long as possible at least once for a calibration run. I’m going to hand out watches to all of you. You can create an account using your school email, watches can then sync with either your laptop or a phone.”
+
+Austin looked down at his watch and said: “You know what, let’s do the EHC calibration run right now, I’ll grab some tall cups of iced tea that I want you to drink as quickly as possible.”
+
+While we gulped down the tea, Robyn gave us an overview of the technology used:
+
+Rust firmware written for the watch
+
+C# application to communicate to the watch over Bluetooth and sync settings and data with the public API
+
+Local data cached in a SQL Lite database
+
+Back-end Java server that syncs data from devices into a centralized database.
+
+PostgresSQL Database to store database
+
+Node JS + React for the website.
+
+For example, let’s say that your bladder is storing 600 ML of pee. If we use the bladder trigger feature, we are clicking a button on our website which is written in React JS. This will send an HTTPS request to our back-end Java server which will write a Rabbit message to get synced to your phone/computer. This event will then get sent to the watch over Bluetooth. The watch will then send an EMP signal to your bladder’s sphincter which will force you to wet yourself. As you are wetting yourself, the sensors on the watch will record the volume of your bladder as it goes down and is sends that back to the C# application over Bluetooth where it is stored in the SQL lite database! This data is then synced up with the Postgress SQL database in the cloud via the rabbit messaging queue. As the data is synced in live time, you can view from the website: when you peed, how much you peed, and how long it took you to pee.
+
+&&
+
+[boring tech talk ensued for several hours where all the other employees left]
+
+Jack who was fidgeting next to us, asked, “I really need to use the restroom, can I go?”
+
+Robyn shot back: “No! While doing the calibration run, you have to have a genuine accident.”
+
+Jack blushed and said “Bbbbut... is it really fine to have an aaaccident in the middle of your office??”
+
+“Try to hold while standing, we have cleaning robots for the floors, but they sometimes struggle to get under the desks. First, let’s check to see how you guys are doing”, Robyn typed away in a terminal prompt and a graph quickly displayed on the projector.
+
+&&
+
+“Psh, we are at rookie numbers! Let’s have you guys drink some more.”
+
+After drinking more tea, Jack began pacing nervously, constantly fidgeting with their shorts. Within a half hour, Jack was unable to hold it any longer and broke down and had an accident while Robyn was going into detail on how the python ML application integrates with the back-end Java server. As if a normal occurrence, Robyn continued the meeting while Jack’s body trembled and their pussy hissed and violently sprayed pee onto the office floor. The sound of the pee hitting the ground eventually calmed down, creating a soothing melody that seemed to blend harmoniously with the ongoing explanation about the ML application.
+
+&&
+
+...
+
+Robyn got a text message and said: “Welp, I suppose this is a good time to call it a day and head over to the dinner party, Austin wants you to meet some people.”
+
+Ben and I nervously look at each other and shouted in unison: “Dinner Party!?”
+
+Robyn replied: “Oh, it’s nothing much, the first Friday of each month a few companies in town all meet together for a happy hour. Nothing you need to get too dressed up for… besides, us programmers never dress up, it’s how we tell us ‘geeks’ apart from the business ‘normies.’”
+
+I looked down at my damp leggings and gave Ben a nervous grin. Ben then shrugged and pointed to Jack’s shorts which were completely drenched. At this point, I was starting to feel a sharp pressure within my abdomen growing, warning me that I have a date with disaster.
+
+We exited the office and cut through a nearby vegetable garden before reaching a bar connected to a hotel called "Leaky Lavatory." The bar was filled with people wearing suits, khaki pants, polos, and dresses. Robyn led us to a corner where we found a group of programmers dressed in casual attire such as t-shirts, jeans, and sweatpants. As we approached, Robyn gave a half wave to the group, but it went unnoticed since they were engaged in a lively debate.
+
+“Omo Sims 7 is an unrivaled masterpiece. You are able to fully customize your character’s appearance, and you can see how badly they need to pee. With AI, the dialog and animated movements are very realistic. Plus, the peeing animation is different each time, and looks accurate regardless of what your character is wearing or where they are at.”
+
+“I know you think Omo sims 7 is the best, and it does have great stylized graphics, but you are still limited by the virtual world. Without an exposed API for third party developers, how do you expect this to say relevant? With robotic dolls that can now walk, talk, and pee, how can your silly virtual world stack against the flexibility offered in ‘Robotic SIM?’”
+
+“Oh, I didn’t realize you wanted to deal with cleaning actual pee!”
+
+“Well, it’s not pee, it’s heated apple juice that you can drink as they squirt it out. You can’t get physical sensations like that in a 2D world. Plus, if your worried about cleaning, just get a cleaning robot, they don’t cost that much!”
+
+“Umm, actually, I think you are both idiots, clearly the superior platform is ‘VR Omo Roulette’, this at least connects you with Real people.”
+
+“Let’s not forget the time you accidentally peed on your $12,000 gaming PC because you were having a ‘holding contest’ in VR...”
+
+“Real people??!! I call BS on that. Every ‘girl’ on that platform is just some guy with an anime avatar and a vocaliod voice...”
+
+“Just become bisexual for christ sake! We are just talking about having a virtual pee companion; nothing sexier than a feminine boy with cat ears needing to pee.”
+
+“Let’s be honest, if they lie about their gender, do they also lie about being desperate to pee? I’ve seen people pleading and begging to pee, to just let out a small stream of pee that isn’t even audible over the microphone.”
+
+Robyn smirked and lunged into the debate: “That’s why our Bladder app integration with Leaky Lavatory will mop the floor with the sorry lot of you. You get to see the bladder metrics of real people, holding in real time, happening in the real world.”
+
+“Oh, I’m sorry, I don’t have a numbers fetish.” In a high pitched mocking voice he continued: “Oh fuck yeah, your bladder is 20 ML under your max hold. Mommy AI model tells me your pussy will be exploding in 5 minutes!”
+
+The software engineer then pointed at me and said: “This girl right here needs to pee, and we can visibly see it…. God damn, we can visibly see it. It doesn’t matter what her bladder volume is, the unknown and the tease is a crucial part of the appeal...”
+
+Robyn cut him off and said: “Without numbers y'all are just perverted idiots. Holds can last hours and sometimes days, are you going to stare at someone for a couple of hours waiting for them to have an accident? This women here is Alex, and she has been holding since at least 1:30 PM. Alex’s leggings are somehow always wet??? I don’t question it... Regardless, with this website, you can see a forecast of when the other person will be desperate, so you know when to open the video stream or send chat messages and tips to them. Or, you can filter streams by how much they have in their bladder or how desperate they are to pee.”
+
+“Umm, I think you are actually missing the point Robyn!” A man with a receding hairline jumps into the debate while pushing up his glasses. “The point isn’t to re-create or visualize real life, but to serve as a form of escapism, transporting yourself into a fantasy world. Take for instance, my RPG world based on the Lord of the Rings: Hobbits, Elves, Dwarfs, Goblins obviously all have different holding capabilities. Imagine being limited by the average 400-600 ML human bladder capacity? PSH! Do you have any idea how much a dragon can pee!! Plus, once you consider magic, well... the possibilities are undubeously endless. Waiting? I laugh, with magic you can automatically fill someone’s bladder.”
+
+Startling us, Austin appeared behind Ben and myself and tapped our shoulders without saying a word. Austin then whisked us away away to a standing bar filled with men in business suits. The pressure on my bladder was building like a bottle rocket ready to explode. All of the ice tea and water from earlier had worked its way through my system. All this pee talk, isn’t helping me one bit; where exactly are we even working? Why are most the companies in this town pee related. AHHHHH, no time to think of that this moment, I need to keep my cool and hold my bladder without fidgeting too much. This is an important networking event with the people who are giving us internships, I can’t be known as the person who pisses themselves during business events.
+
+A tall man dressed in all black was talking with great enthusiasm in his voice:
+
+“You see, that’s what I’m telling you. What do you think the largest problem facing young people is?”
+
+He stopped as he noticed us approach:
+
+“You two, right there, how old are you?”
+
+“18 sir” we responded.
+
+“Please, call me Bryce. By chance, are you two dating?”
+
+“Ummm, sort-of yeah?” We mumbled half awkwardly.
+
+“And, have you two had sex?”
+
+“No!” we shot back.
+
+“And why not?” Bryce pressed.
+
+“Well, ...birth control mostly... I suppose” Ben started, and after exchanging a quick nervous glance I continued “It’s expensive, hard to get, and not always 100% effective” I responded.
+
+“See! This is what I’m talking about!” Bryce made a sweeping gesture with his hands to the other men standing around the bar and continued his speech:
+
+“Young people in their 20s and 30’s should be running around having sex like rabbits! But, they aren’t! I chalk it up to four main things:
+
+1: Religion and other cultural stigmas around sex
+
+2: Pregnancies
+
+3: STDs
+
+4: Endurance and drive
+
+“My company’s product is revolutionary, we solve all these problems in one sweep. We surgically alter the male anatomy to ejaculate pee rather than semen. This way, there is never any risk of spreading STDs (male to female or male to male) or getting anyone pregnant. With that out of the way, I think most of the cultural stigmas would drop. There will still be purists out there that say that ‘non-reproductive sex is sinful’... But fuck em!! The only reason most religions preached sexual purity was because when their holy books were written, it was an easy way to prevent disease. This is the same reason why some religions banned pork-- because pigs rolling around in mud were seen as unclean and carriers of diseases. Remember, those were times where people didn’t have the medicine to treat the common flu, let alone STDs. It’s perfectly understandable that their moral beliefs would reflect the medical advice of the time.”
+
+“But, guess what? The future is upon us! Not only can we have sex without risks, but the sex we have can be kinkier, more sensual, and cause both parties to orgasm multiple times!”
+
+Bryce walked behind Ben and gently put his hands on Ben’s shoulder leaned into his ear and pointed at my wet camel toe and said: “See how aroused her skirmish body is? On the verge of explosion; in fact, I think she already peed a little. Despite her groin drooling liquid desire as her thighs constantly squirm back and forth to keep her from peeing, even if you two were to have sex this moment, you would cum far before her throbbing pussy is satisfied, especially since you are what again? Did you say 18?”
+
+We both nodded.
+
+“Ha, you two should be going at it all night, but, this young man can probably only keep it up for a blink of an eye. It’s a shame. But, with the male squirt surgery, you would ejaculate slimy pee instead of semen, and you would be able to ejaculate and stay hard as long as you have pee in your bladder. It works something like this: if you really have to pee, you may initially ejaculate 140ML, and then every following ejaculation would decrease in volume until you are no-longer able to pee. Or, you could just pee it all out while hard, this technology also enables you to easily be able to pee while rock hard. The difference is that if you ejaculate pee, it mixes with several hormones that turns the pee into a cum like consistency that is good a lubricant, where if you just pee, it still shoots out as normal pee.”
+
+“All this to say: sex is best when you both are bursting to pee. Unfortunately, for you, your lady friend here will pee long before you are also desperate to pee.”
+
+Bryce then turned to Austin and said: “This is what I wanted to discuss with you tonight! If we can use your app to synchronize people’s bladders and cause them to be desperate to pee at the same time... I’ll pay you handsomely for that feature.”
+
+Austin responded, “I bet this would also help bring profits to our joint venture in the Leaky Lavatory...”
+
+Bryce continued: “You brought two excellent candidates to test this out on, I’ll give Ben and any other interns you have the surgery tomorrow free of cost, it’s a simple out-patient procedure. I’m assuming you have them for a 4 month internship... Lets set our goal on having their bladders 100% synchronized by the end of the internship. If that task turns out to be easy, we can add more people into the mix and try selecting climax windows.”
+
+Austin and Bryce go to clink their wine glasses in a toast but, my bladder decided to use that as the signal to pee.
+
+“PSSHHHHHHHH”, “dr dr dr dr drrrrr”
+
+Shit, shit, shit a one second jet of pee shot out between my legs making a disturbingly loud noise, and even more startling, making an acoustic drumming noise as it crashed against the tiles on the floor. Are the floor tiles hallow???
+
+I quickly grab my groin and cross my legs and bent forward, which temporarily stopped me from peeing, but a second later I lost all control and a jet of pee was now flying behind me, arching away from my ass. When I didn’t hear the pee hit the floor, I froze, half mortified as I heard people laughing. In the act of squirming and bending over, I had sent my pee flying towards the table of people behind us, hitting several business people in what appeared to be expensive suits and dress shoes.
+
+&&
+
+In half embarrassment, and half dizziness from peeing so much, I collapsed to my knees, and continued peeing on the ground. Once I was done peeing, Ben gently patted me on the head and I stood up, avoiding eye contact with everyone.
+
+Austin smiled, raised his glass and said: “A toast to what sounded like a very healthy bladder. I think, you two will really enjoy this internship.”
+
+In unison half the bar raised their glasses up in a toast-- making me even more mortified in realizing that everyone was paying attention.
+
+Robyn walked over and Austin asked him: “How much was that just now?”
+
+Robyn flipped open his phone and said: “600 ML and 30 ML lost throughout due to leakage.”
+
+Austin: “And Ben?”
+
+Robyn: “700 ML and no signs of slowing down”
+
+Bryce: “Well well well, looks like you have your work cut out to synchronize them”
+
+Austin turned to us and said: “It must have been a long day for you two, let me show you two your room at the Leaky Lavatory where you can get cleaned up and get settled in… Robyn: fetch the other interns.”
+
+*004*2025-01-05 18:46
+
+{{On 1/3/2025 at 3:44 AM, orangelion said:
+
+There is a lot of technical detail in this chapter. Are you a software developer?
+
+}}
+
+I've had a few software developer internships in the past!! I'm currently in grad school for cyber security 🔐
+
